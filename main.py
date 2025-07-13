@@ -56,7 +56,7 @@ if "page" not in st.session_state:
 
 # ------------------- Cover Page -------------------
 if st.session_state.page == "cover":
-    st.image("cover.png", use_column_width=True)
+    st.image("cover.png",use_container_width=True)
     st.markdown("### 👋 Welcome to **CompliTech**")
     st.write("Predict India & Global compliance certificates by entering your product specs.")
 
