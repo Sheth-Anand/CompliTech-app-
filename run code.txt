@@ -1,0 +1,4 @@
+cd C:\Users\SHETH\Desktop\aryan\intelai
+py -m streamlit run main.py
+
+
